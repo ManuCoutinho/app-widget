@@ -1,5 +1,7 @@
-function App() {
-  return <h1>Hello Povo</h1>
+import Widget from './components/widget'
+
+const App: React.FC = () => {
+  return <Widget />
 }
 
 export default App
