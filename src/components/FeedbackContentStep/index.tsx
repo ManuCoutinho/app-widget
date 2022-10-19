@@ -1,11 +1,11 @@
 import { FormEvent, Fragment, useState } from 'react'
 import { ArrowLeft } from 'phosphor-react'
-import { api } from 'lib/api'
 import Loading from 'components/Loading'
 import { CloseButton } from 'components/CloseButton'
 import { ScreenshotButton } from 'components/ScreenshotButton'
 import feedbackTypes from 'data/feedbackTypes'
 import { FeedbackContentStepProps } from './types'
+import { api } from 'lib/api'
 
 export const FeedbackContentStep: React.FC<FeedbackContentStepProps> = ({
   feedbackType,
