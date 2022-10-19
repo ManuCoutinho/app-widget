@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./src/assets/demo.gif" alt="demo do app widget" />
+  <img src="./public/assets/demo.gif" alt="demo do app widget" style='width:300px'/>
 
 &#xa0;
 
@@ -10,10 +10,10 @@
 <h1 align="center">Widget for feedbacks</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/manucoutinho/app-widget?color=C1C3F1">
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/manucoutinho/app-widget?color=C1C3F1">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/manucoutinho/app-widget?color=C1C3F1">
-  <img alt="License" src="https://img.shields.io/github/license/manucoutinho/app-widget?color=C1C3F1">
+  <img alt="Storybook" src="https://img.shields.io/badge/storybook-FFF?style=for-the-badge&logo=storybook&logoColor=FF4785" />
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/manucoutinho/app-widget?color=C1C3F1&style=for-the-badge">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/manucoutinho/app-widget?color=C1C3F1&logo=typescript&logoColor=white&style=for-the-badge">  
+  <img alt="License" src="https://img.shields.io/github/license/manucoutinho/app-widget?color=C1C3F1&style=for-the-badge">
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@ With this application, the user will be able to inform the type of feedback he w
 Feedback will be emailed to the system administrator.
 In this application, the data is being persisted with Postgresql and the e-mail is being sent by the configured provider.
 
-You can test the app **[here 📑](https://sentfeedback.vercel.app/)**
+You can test the app and check the full documentation **[here 📑](https://sentfeedback.surge.sh/)**
 
 ## :sparkles: Features
 
@@ -58,12 +58,13 @@ The following tools were used in this project:
 - [Headless UI](https://headlessui.dev)
 - [Phosphor](https://phosphoricons.com)
 - [Html2canvas](https://www.npmjs.com/package/html2canvas)
+- [Storybook](https://storybook.js.org)
 
 ## :white_check_mark: Requirements
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
-You can find the application API [here 💻](https://github.com/ManuCoutinho/feedback-widget)
+You can find the app's API and instructions for integration **[here 💻](https://github.com/ManuCoutinho/feedback-widget)**
 
 ## :checkered_flag: Starting
 
@@ -75,12 +76,12 @@ $ git clone https://github.com/manucoutinho/app-widget
 $ cd widget
 
 # Install dependencies
-$ yarn
+$ npm install
 
 # Run the project
-$ yarn start
+$ npm run dev
 
-# The server will initialize in the <http://localhost:3000>
+# The dev server will initialize in the <http://localhost:5173>
 ```
 
 ## :memo: License
