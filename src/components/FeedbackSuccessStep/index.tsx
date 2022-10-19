@@ -1,4 +1,4 @@
-import { CloseButton } from 'components/CloseButton'
+import { CloseButton } from '../CloseButton'
 import successImg from '/assets/success.svg'
 import { FeedbackSuccessStepProps } from './types'
 

@@ -1,5 +1,4 @@
-import { FeedbackType } from "components/WidgetForm/types"
-
+import { FeedbackType } from "../WidgetForm/types"
 export interface FeedbackContentStepProps {
   feedbackType: FeedbackType
   onFeedbackRestartRequested: () => void

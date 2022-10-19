@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { FeedbackTypeStep } from '../FeedbackTypeStep'
 import { FeedbackContentStep } from '../FeedbackContentStep'
-import { FeedbackSuccessStep } from '../FeedbackSuccessStep/FeedbackSuccessStep'
+import { FeedbackSuccessStep } from '../FeedbackSuccessStep'
 import { FeedbackType } from './types'
 
 const WidgetForm: React.FC = () => {

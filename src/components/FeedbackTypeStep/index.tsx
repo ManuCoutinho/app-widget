@@ -1,6 +1,6 @@
-import { CloseButton } from 'components/CloseButton'
-import { FeedbackType } from 'components/WidgetForm/types'
-import feedbackTypes from 'data/feedbackTypes'
+import { CloseButton } from '../CloseButton'
+import { FeedbackType } from '../WidgetForm/types'
+import feedbackTypes from '../../data/feedbackTypes'
 import { FeedbackTypeStepProps } from './types'
 
 export const FeedbackTypeStep: React.FC<FeedbackTypeStepProps> = ({

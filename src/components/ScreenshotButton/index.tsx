@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Camera, Trash } from 'phosphor-react'
 import html2canvas from 'html2canvas'
-import Loading from 'components/Loading'
+import Loading from '../Loading'
 import { ScreenshotButtonProps } from './types'
 
 export const ScreenshotButton: React.FC<ScreenshotButtonProps> = ({
